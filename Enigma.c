@@ -1,7 +1,3 @@
-//NOME:JULIO GABRIEL P. OTONI
-//RA:1430482021011
-//NOME:SAMUEL SILVA PERUMALSWAMY
-//RA:1430482011010
 
 #include <stdio.h>//importa as bibliotecas que serão utilizadas no projeto
 #include <string.h>//Biblioteca string para a leitura das variaveis
@@ -40,7 +36,8 @@ int main(){//inicializa o método main
 	
 	return 0;
 }
-    bool eh_possivel(int index, char *mensagem, char *crib){//Inicializa a função eh_possivel
+
+bool eh_possivel(int index, char *mensagem, char *crib){//Inicializa a função eh_possivel
 	int i, j;//Cria duas variaveis inteiras
 
 	for(j = 0, i = index; j < strlen(crib); j++, i++){//Percorre o crib para realizar as comparações
@@ -49,5 +46,4 @@ int main(){//inicializa o método main
 		}
 	}
 	return true;// Retorna verdadeiro se nao houver strings compativeis
-	
-    }
+}
