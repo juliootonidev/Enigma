@@ -6,3 +6,12 @@
 ![image](https://user-images.githubusercontent.com/69825958/135639361-11f3b436-35d3-49b4-b894-2db2503f23b3.png)
 
 Neste problema, dada uma mensagem cifrada e um crib, seu programa em C deve computar o número de posições possíveis para o crib na mensagem cifrada.
+
+Entrada
+A primeira linha da entrada contém a mensagem cifrada, que é uma sequência de, pelo menos, uma letra e no máximo 104 letras. A segunda linha da entrada contém o crib, que é uma sequência de, pelo menos, uma letra e no máximo o mesmo número de letras da mensagem. Apenas as 26 letras maiúsculas, sem acentuação, aparecem na mensagem e no crib.
+
+Saída
+Imprima uma linha contendo um inteiro, indicando o número de posições possíveis para o
+crib na mensagem cifrada.
+
+![image](https://user-images.githubusercontent.com/69825958/135640574-77bec196-00dc-4be6-89fe-184c0ec6c036.png)
